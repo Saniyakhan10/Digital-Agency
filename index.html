@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Agency</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background-image: url(imgi_1_bg.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+        
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 10rem;
+            padding-top: 2.8rem;
+        }
+        
+        .parent1 h2 {
+            color: white;
+            font-weight: 500;
+            font-size: 1.5rem;
+        }
+        
+        .parent2 {
+            display: flex;
+            gap: 3rem;
+        }
+        
+        .parent2 a {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        .contact {
+            border: 2px solid white;
+            padding: 9px 30px;
+            position: relative;
+            bottom: 0.7rem;
+        }
+        
+        .parent3 {
+            color: white;
+            max-width: 60%;
+            font-size: 2.5rem;
+            position: relative;
+            top: 8rem;
+            left: 15rem;
+            line-height: 1.3;
+        }
+        
+        .parent3 h1 {
+            font-weight: 400;
+        }
+        
+        .child1 {
+            display: flex;
+            gap: 1.3rem;
+            position: relative;
+            top: 1.2rem;
+            left: 0.3rem;
+        }
+        
+        .child1 p {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        
+        .child1 .blurline {
+            width: 6.8rem;
+            height: 0.25rem;
+            border-radius: 1.2rem;
+            background: linear-gradient( to right, #bc580c 0%, #68350F 50%, #321F12 100%);
+            position: relative;
+            top: 0.65rem;
+        }
+        
+        .parent4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            padding: 2rem 0;
+            max-width: 80%;
+            margin: auto;
+            position: relative;
+            top: 13.6rem;
+        }
+        
+        .card {
+            width: 180px;
+            height: 350px;
+            background: rgba(255, 255, 255, 0.12);
+            padding: 1rem;
+            border-radius: 7px;
+            color: white;
+            backdrop-filter: blur(13px);
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
+            cursor: pointer;
+            overflow: hidden;
+        }
+        
+        .card:hover {
+            transform: translateY(-150px);
+            box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
+        }
+        
+        .card .p1 {
+            font-weight: 400;
+            font-size: 1.1rem;
+            padding-bottom: 2rem;
+        }
+        
+        .card .p2 {
+            text-align: left;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="parent1">
+            <h2>Techno Soft</h2>
+        </div>
+        <div class="parent2">
+            <a href="#">About</a>
+            <a href="#">Case Studies</a>
+            <a href="#">News</a>
+            <a href="#" class="contact">Contact</a> </div>
+    </nav>
+    <div class="parent3">
+        <h1>We are a fully integrated<span style="color: #B45309;">digital agency.</span></h1>
+        <div class="child1">
+            <p>Start a project</p>
+            <div class="blurline"></div>
+        </div>
+    </div>
+    <div class="parent4">
+        <div class="card">
+            <h2>01</h2>
+            <p class="p1">Instagram Adds</p>
+            <p class="p2">A strategy that leverages Instagram’s visual content, reels, stories, and influencer collaborations to build brand.</p>
+        </div>
+        <div class="card">
+            <h2>02</h2>
+            <p class="p1">FaceBook Adds</p>
+            <p class="p2">A paid advertising platform that allows businesses to target specific audiences based on demographics, interests, and behavior, displaying.</p>
+        </div>
+        <div class="card">
+            <h2>03</h2>
+            <p class="p1">Google Adds</p>
+            <p class="p2">A digital marketing strategy that involves sending personalized emails, newsletters, and promotional offers to a list of subscribers.</p>
+        </div>
+        <div class="card">
+            <h2>04</h2>
+            <p class="p1">Whatsapp Marketing</p>
+            <p class="p2">Using WhatsApp to directly connect with customers through promotional messages newsletters, and offers to a list of subscribers.
+
+            </p>
+        </div>
+        <div class="card">
+            <h2>05</h2>
+            <p class="p1">Email Marketing</p>
+            <p class="p2">The process of creating digital products that are user-friendly, intuitive, and to use newsletters, and offers to a list of subscribers. . </p>
+        </div>
+        <div class="card">
+            <h2>06</h2>
+            <p class="p1">Front-end Dev</p>
+            <p class="p2">Involves designing the visual and interactive elements of a website that users interact with newsletters, and offers to a list of subscribers. . </p>
+        </div>
+    </div>
+</body>
+
+</html>
